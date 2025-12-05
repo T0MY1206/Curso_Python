@@ -1,0 +1,7 @@
+print("Hola, Mundo")
+print('Hola, Mundo')
+print("python", "es", "genial")
+print("python", "es", "genial", sep = "-")
+print("Esto se imprime", end = " ")
+print("en una linea")
+print(42)
