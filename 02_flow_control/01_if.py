@@ -63,3 +63,28 @@ elif tiene_dinero:
     print("Puedes ir a la joda")
 else:
     print("Quedate en casas")
+
+os.system("cls")
+
+numero = 5
+if numero:
+    print("El numero no es cero")
+
+numero = 0
+if numero:
+    print("El numero no es cero")
+
+nombre = "Juan"
+if nombre:
+    print("El nombre no es vacio")
+
+numero = 3
+es_el_tres = numero == 3
+if es_el_tres:
+    print("El numero es 3")
+
+os.system("cls")
+print("Operador ternario:")
+edad = 17
+mensaje = "Es mayor de edad" if edad >= 18 else "Es menor de edad"
+print(mensaje)
